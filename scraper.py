@@ -24,9 +24,9 @@ def scrape():
     
     session = HTMLSession()
     resp = session.get("https://parkingavailability.uncc.edu/")
-    resp.html.render()
-    soup = BeautifulSoup(resp.html.html, "lxml")
     resp.html.render(timeout=20)
+    soup = BeautifulSoup(resp.html.html, "lxml")
+
     
     #Get required info
     allInfo = soup.find_all("mat-list-item")
