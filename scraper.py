@@ -58,7 +58,7 @@ def database():
     db = mysql.connect(
         host = "localhost",
         user = "root",
-        passwd = "Letter69!",
+        passwd = "dataBasePWD",
         database = "parkinginformation"
     )
     #print(db)
