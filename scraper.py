@@ -97,51 +97,6 @@ def database():
     #for i in result:
     #    print(i)
 
-def parkingdeck(allInfoList):
-    print("Parking deck options")
-    print("1. Cone Deck Faculty/Staff\n2. Cone Deck Visitor\n3. CRI Deck\n4. East Deck 1\n5. East Deck 2/3\n6. North Deck\n7. South Village Deck\n8. Union Deck Lower\n9. Union Deck Upper\n10. West Deck")
-
-    deck = int(input("What parking deck? "))
-    while deck not in [1,2,3,4,5,6,7,8,9,10]:
-        print("Not a valid number, please try again")
-        deck = int(input("What parking deck? "))
-    if deck == 1:
-        info1 = allInfoList[0].split("\n")
-        print(info1[2].replace('star_border',''),":",info[1])
-    elif deck == 2:
-        info2 = allInfoList[1].split("\n")
-        print(info2[2].replace('star_border',''),":",info[1])
-    elif deck == 3:        
-        info3 = allInfoList[2].split("\n")
-        print(info3[2].replace('star_border',''),":",info[1])
-    elif deck == 4:
-        info4 = allInfoList[3].split("\n")
-        print(info4[2].replace('star_border',''),":",info[1])
-    elif deck == 5:
-        info5 = allInfoList[4].split("\n")
-        print(info5[2].replace('star_border',''),":",info[1])
-    elif deck == 6:
-        info6 = allInfoList[5].split("\n")
-        print(info6[2].replace('star_border',''),":",info[1])
-    elif deck == 7:
-        info7 = allInfoList[6].split("\n")
-        print(info7[2].replace('star_border',''),":",info[1])
-    elif deck == 8:
-        info8 = allInfoList[7].split("\n")
-        print(info8[2].replace('star_border',''),":",info[1])
-    elif deck == 9:
-        info9 = allInfoList[8].split("\n")
-        print(info9[2].replace('star_border',''),":",info[1])
-    elif deck == 10:
-        info10 = allInfoList[9].split("\n")
-        print(info10[2].replace('star_border',''),":",info[1])
-    else:
-        info11 = allInfoList[10].split("\n")
-        print(info11[2].replace('star_border',''),":",info[1])
-
-
-
-
 scrape()       
 database()
-#parkingdeck(allInfoList)
+
