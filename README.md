@@ -6,4 +6,4 @@ Scrapes the <a href="https://parkingavailability.charlotte.edu/">UNC Charlotte P
 The next step is to add additional code that will query the data for use in a github.io page, where historical trends can be plotted.
 
 ## Issues
-I wrote this when I was first learning Python, had never used a database before, and had never used Beautiful Soup. The code needs to be refactored to clean up many redundant lines, but it works well enough that I do not have the means.
+I wrote this when I was first learning Python, had never used a database before, and had never used Beautiful Soup. The code needs to be refactored to clean up many redundant lines, but it works well enough that I do not have the need.
